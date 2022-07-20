@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #121212;
+    /* background-image: radial-gradient(); */
+}
+.main-container{
+    margin: 0 auto;
+    max-width: 375px;
+    padding-bottom: 3rem;
+}
+.img-container img{
+    border-radius: 50%;
+    max-height: 120px;
+    max-width: 120px;
+    margin-top: 1.75rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.text-container{
+    color: white;
+}
+.text-container h3{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+.salute{
+    margin-top: 1rem;
+}
+.name{
+    margin-top: 0.5rem;
+}
+.text-container p{
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 0.5rem;
+}
+button{
+    background-color: #005B56; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    width: 350px;
+    margin-top: 1rem;
+    border-radius: 5px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+  
+  /* Darker background on mouse-over */
+button:hover {
+    background-color: #00332E;
+}
+.links{
+    font-weight: 500;
+}
+span{
+    margin-left: .7rem;
+}
+.design-links{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    margin-top: 1.5rem;
+    font-size: 16px;
+}
