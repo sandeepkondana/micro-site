@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #121212;
+    background-color: #f8f8f8;
     /* background-image: radial-gradient(); */
 }
 .main-container{
@@ -25,7 +25,7 @@ body{
     width: 50%;
 }
 .text-container{
-    color: white;
+    color: #121212;
 }
 .text-container h3{
     font-family: 'Inter', sans-serif;
@@ -68,12 +68,22 @@ button:hover {
 }
 .links{
     font-weight: 500;
+    margin-left: 1rem;
+}
+a:visited{
+    text-decoration: none;
+}
+a:active{
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
 }
 span{
     margin-left: .7rem;
 }
 .design-links{
-    color: white;
+    color: #121212;
     font-family: 'Inter', sans-serif;
     margin-top: 1.5rem;
     font-size: 16px;
