@@ -40,7 +40,7 @@ body{
 }
 .text-container p{
     font-family: 'Chakra Petch', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     text-align: center;
     font-size: 12px;
     margin-top: 0.5rem;
@@ -50,24 +50,25 @@ button{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    background-color: #005B56; /* Blue background */
+    background-image: linear-gradient(to right, #BCC699,#9CCEB0,#A0C3CB,#BDBBE0 );
     border: none; /* Remove borders */
-    color: white; /* White text */
+    color: #121212; /* White text */
     padding: 12px 16px; /* Some padding */
     font-size: 16px; /* Set a font size */
     cursor: pointer; /* Mouse pointer on hover */
     width: 350px;
     margin-top: 1rem;
     border-radius: 5px;
+    border: 1px solid #121212;
     font-family: 'Chakra Petch', sans-serif;
 }
   
   /* Darker background on mouse-over */
 button:hover {
-    background-color: #00332E;
+    box-shadow: 0px 0px 9px 3px #a8a8a8;
 }
 .links{
-    font-weight: 500;
+    font-weight: 600;
     margin-left: 1rem;
 }
 a:visited{
